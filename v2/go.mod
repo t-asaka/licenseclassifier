@@ -1,4 +1,4 @@
-module github.com/google/licenseclassifier/v2
+module github.com/t-asaka/licenseclassifier/v2
 
 go 1.16
 

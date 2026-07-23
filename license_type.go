@@ -127,6 +127,7 @@ const (
 	LPL10                       = "LPL-1.0"
 	LPPL13c                     = "LPPL-1.3c"
 	MIT                         = "MIT"
+	MIT0                        = "MIT-0"
 	MPL10                       = "MPL-1.0"
 	MPL11                       = "MPL-1.1"
 	MPL20                       = "MPL-2.0"
@@ -323,6 +324,7 @@ var (
 	// unencumbered - Licenses that basically declare that the code is "free for any use".
 	unencumberedType = sets.NewStringSet(
 		CC010,
+		MIT0,
 		Unlicense,
 		ZeroBSD,
 	)
